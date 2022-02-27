@@ -1,0 +1,90 @@
+:root{
+    --color-primary: rgb(21, 156, 150);
+    --color-secondary: rgb(161, 211, 62);
+}
+body{
+    /* height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: gainsboro;
+    width: fit-content ;
+}
+.offer{
+    background-color: white;
+    width: auto;
+    max-height: 60vh;
+    padding: 10px 20px;
+}
+.offer h2{
+    color: rgb(21, 156, 150);
+    text-align: justify;
+    margin-bottom: 15px;
+
+}
+.offer h3{
+    color: rgb(157, 204, 62);
+    margin-bottom: 15px;
+}
+.offer p{
+    color: #999;
+    text-align: justify;
+    max-width: 40ch;
+}
+.subscription {
+    background-color: var(--color-primary);
+    width: auto;
+    padding: 10px 20px;
+    color: #fff;
+    display: grid;
+}
+.price{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.price::after{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.price h1{
+    margin: 0;
+    padding: 0;
+}
+.subscription .price p{
+    margin: 0;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.subscription p{
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+.signup{
+    color: #fff;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.why-us{
+    background-color: rgba(21, 156, 149, 0.774);
+    padding: 10px 20px;
+    color: #fff;
+}
+.why-us .h2{
+    margin-bottom: 20px;
+}
+.why-us li{
+    margin-bottom: 3px;
+    opacity: 0.6;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+
