@@ -86,5 +86,30 @@ ul{
     list-style: none;
     padding-left: 0;
 }
+@media screen and (min-width: 760px){
+    .container{
+    
+        display: grid;
+        grid-template-columns: repeat(2,fit-content);
+        grid-template-rows: repeat(2,fit-content);
+    }
+    .offer{
+        padding: 20px 30px;
+        grid-area: 1 / 1 / span 1 / span 2;
+    }
+    .offer p{
+        max-width: 60ch;
+        line-height: 1.5rem;
+        
+      
+    }
+    .subscription{
+        grid-area: 2 / 1 / span 1 / span 1;
+        padding: 20px 30px;
 
-
+    }
+    .why-us{
+        grid-area: 2 / 2 / span 1 / span 1;
+        padding: 20px 30px;
+    }
+}
